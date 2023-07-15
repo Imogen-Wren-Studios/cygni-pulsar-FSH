@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Cygni-PulsarV2.1-rescue")(type "Legacy")(uri "${KIPRJMOD}/cygni-pulsar-FSH-rescue.lib")(options "")(descr ""))
+  (lib (name "Cygni PulsarV2.1-rescue")(type "KiCad")(uri "${KIPRJMOD}/Cygni PulsarV2.1-rescue.kicad_sym")(options "")(descr ""))
+)

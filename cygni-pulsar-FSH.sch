@@ -1,0 +1,2789 @@
+EESchema Schematic File Version 4
+LIBS:Cygni PulsarV2.1-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 900  1500 0    50   Input ~ 0
+FSHin
+$Comp
+L FilmCapacitor:CER_FILM C?
+U 1 1 5ACD2170
+P 1100 1500
+F 0 "C?" V 871 1512 45  0000 C CNN
+F 1 "47n" V 955 1512 45  0000 C CNN
+F 2 "Film-Caps:BOX_SMALL" H 1050 1450 20  0001 C CNN
+F 3 "" V 975 1150 60  0001 C CNN
+	1    1100 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5ACD24C2
+P 1600 1500
+F 0 "R?" H 1575 1679 45  0000 C CNN
+F 1 "10k" H 1575 1595 45  0000 C CNN
+F 2 "Resistors:R0207_2V" H 1650 1550 20  0001 C CNN
+F 3 "" H 1600 1500 60  0001 C CNN
+	1    1600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5ACD28D2
+P 1350 1750
+F 0 "R?" V 1308 1803 45  0000 L CNN
+F 1 "100k" V 1392 1803 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 1400 1800 20  0001 C CNN
+F 3 "" H 1350 1750 60  0001 C CNN
+	1    1350 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5ACD293D
+P 1350 2000
+F 0 "#GND?" H 1350 2000 45  0001 L BNN
+F 1 "GND" H 1350 1881 45  0000 C CNN
+F 2 "" H 1350 2000 60  0001 C CNN
+F 3 "" H 1350 2000 60  0001 C CNN
+	1    1350 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:LM13700N-ota-Cygni-Pulsar-V1.2-rescue-Cygni-Pulsar-V1.2-rescue-Cygni-Pulsar-V2.0-rescue-Cygni-PulsarV2.1-rescue IC?
+U 1 1 5ACD29D7
+P 2200 1600
+F 0 "IC?" H 2355 1709 45  0000 L CNN
+F 1 "LM13700N" H 2400 1800 45  0000 L CNN
+F 2 "Integrated-Circuits:DIL16" H 2230 1750 20  0001 C CNN
+F 3 "" H 2200 1600 50  0001 C CNN
+	1    2200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L FilmCapacitor:CER_FILM C?
+U 1 1 5ACD2A0D
+P 2050 2000
+F 0 "C?" V 1821 2012 45  0000 C CNN
+F 1 "150n" V 1905 2012 45  0000 C CNN
+F 2 "Film-Caps:BOX_BIG" H 2000 1950 20  0001 C CNN
+F 3 "" V 1925 1650 60  0001 C CNN
+	1    2050 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5ACD2A4D
+P 2300 2250
+F 0 "R?" V 2258 2303 45  0000 L CNN
+F 1 "22k" V 2342 2303 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 2350 2300 20  0001 C CNN
+F 3 "" H 2300 2250 60  0001 C CNN
+	1    2300 2250
+	0    1    1    0   
+$EndComp
+Text GLabel 2300 2400 3    50   Input ~ 0
+-8v
+Wire Wire Line
+	900  1500 950  1500
+Wire Wire Line
+	1250 1500 1350 1500
+Wire Wire Line
+	1350 1500 1350 1600
+Connection ~ 1350 1500
+Wire Wire Line
+	1350 1500 1450 1500
+Wire Wire Line
+	1750 1500 1900 1500
+Wire Wire Line
+	2300 1800 2300 2000
+Wire Wire Line
+	2300 2000 2200 2000
+Connection ~ 2300 2000
+Wire Wire Line
+	2300 2000 2300 2100
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R3
+U 1 1 5ACD2B63
+P 1750 2750
+F 0 "R3" H 1725 2929 45  0000 C CNN
+F 1 "100k" H 1725 2845 45  0000 C CNN
+F 2 "Resistors:R0207_2V" H 1800 2800 20  0001 C CNN
+F 3 "" H 1750 2750 60  0001 C CNN
+	1    1750 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5ACD2BA9
+P 2100 3000
+F 0 "R?" V 2058 3053 45  0000 L CNN
+F 1 "3k3" V 2142 3053 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 2150 3050 20  0001 C CNN
+F 3 "" H 2100 3000 60  0001 C CNN
+	1    2100 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5ACD2BE8
+P 2100 3250
+F 0 "#GND?" H 2100 3250 45  0001 L BNN
+F 1 "GND" H 2100 3131 45  0000 C CNN
+F 2 "" H 2100 3250 60  0001 C CNN
+F 3 "" H 2100 3250 60  0001 C CNN
+	1    2100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PotentiometerStandard:Value VR?
+U 1 1 5AD216AC
+P 1150 4475
+F 0 "VR?" H 1097 4562 45  0000 R CNN
+F 1 "B100k" H 1097 4478 45  0000 R CNN
+F 2 "Potentiometers:16MM_ReverseSide" V 1100 4475 20  0001 C CNN
+F 3 "" H 1250 4375 60  0001 C CNN
+F 4 "Filter" H 1097 4391 50  0000 R CNN "Name1"
+	1    1150 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5AD2176B
+P 1150 4775
+F 0 "#GND?" H 1150 4775 45  0001 L BNN
+F 1 "GND" H 1150 4656 45  0000 C CNN
+F 2 "" H 1150 4775 60  0001 C CNN
+F 3 "" H 1150 4775 60  0001 C CNN
+	1    1150 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:LM13700N-ota-Cygni-Pulsar-V1.2-rescue-Cygni-Pulsar-V1.2-rescue-Cygni-Pulsar-V2.0-rescue-Cygni-PulsarV2.1-rescue IC?
+U 3 1 5AD217AC
+P 3000 2650
+F 0 "IC?" H 2950 2850 45  0000 L CNN
+F 1 "LM13700N" H 2800 2400 45  0000 L CNN
+F 2 "Integrated-Circuits:DIL16" H 3030 2800 20  0001 C CNN
+F 3 "" H 3000 2650 50  0001 C CNN
+	3    3000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2000 1600 2000
+Wire Wire Line
+	1900 2750 2100 2750
+Wire Wire Line
+	2100 2850 2100 2750
+Connection ~ 2100 2750
+Wire Wire Line
+	2100 2750 2450 2750
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AD22909
+P 3300 2200
+F 0 "R?" V 3258 2253 45  0000 L CNN
+F 1 "22k" V 3342 2253 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 3350 2250 20  0001 C CNN
+F 3 "" H 3300 2200 60  0001 C CNN
+	1    3300 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L FilmCapacitor:CER_FILM C?
+U 1 1 5AD22A85
+P 3750 2850
+F 0 "C?" H 3900 2850 45  0000 C CNN
+F 1 "1n" H 3605 2862 45  0000 C CNN
+F 2 "Film-Caps:BOX_SMALL" H 3700 2800 20  0001 C CNN
+F 3 "" V 3625 2500 60  0001 C CNN
+	1    3750 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5AD22ADF
+P 3750 3100
+F 0 "#GND?" H 3750 3100 45  0001 L BNN
+F 1 "GND" H 3750 2981 45  0000 C CNN
+F 2 "" H 3750 3100 60  0001 C CNN
+F 3 "" H 3750 3100 60  0001 C CNN
+	1    3750 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2650 3750 2650
+Wire Wire Line
+	3750 2650 3750 2700
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AD22BBA
+P 3400 3350
+F 0 "R?" H 3400 3250 45  0000 L CNN
+F 1 "100k" H 3350 3450 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 3450 3400 20  0001 C CNN
+F 3 "" H 3400 3350 60  0001 C CNN
+	1    3400 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L PotentiometerStandard:Value VR?
+U 1 1 5AD22C24
+P 4300 3350
+F 0 "VR?" V 4450 3250 45  0000 C CNN
+F 1 "2M" V 4200 3350 45  0000 C CNN
+F 2 "Potentiometers:16MM_ReverseSide" V 4250 3350 20  0001 C CNN
+F 3 "" H 4400 3250 60  0001 C CNN
+F 4 "Resonance" V 4150 3350 50  0000 C CNN "Name1"
+	1    4300 3350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AD22C9A
+P 4800 3650
+F 0 "R?" V 4758 3703 45  0000 L CNN
+F 1 "3k3" V 4842 3703 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 4850 3700 20  0001 C CNN
+F 3 "" H 4800 3650 60  0001 C CNN
+	1    4800 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 3350 2450 3350
+Wire Wire Line
+	2450 3350 2450 2750
+Connection ~ 2450 2750
+Wire Wire Line
+	2450 2750 2700 2750
+Wire Wire Line
+	3550 3350 4100 3350
+Wire Wire Line
+	4300 3150 4800 3150
+Wire Wire Line
+	4800 3150 4800 3350
+Wire Wire Line
+	4500 3350 4800 3350
+Connection ~ 4800 3350
+Wire Wire Line
+	4800 3350 4800 3500
+$Comp
+L FilmCapacitor:CER_FILM C?
+U 1 1 5AD232E6
+P 5200 3900
+F 0 "C?" V 5300 3800 45  0000 C CNN
+F 1 "150n" V 5055 3912 45  0000 C CNN
+F 2 "Film-Caps:BOX_BIG" H 5150 3850 20  0001 C CNN
+F 3 "" V 5075 3550 60  0001 C CNN
+	1    5200 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AD23366
+P 5900 4050
+F 0 "R?" V 5858 4103 45  0000 L CNN
+F 1 "100k" V 5942 4103 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 5950 4100 20  0001 C CNN
+F 3 "" H 5900 4050 60  0001 C CNN
+	1    5900 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5AD233AE
+P 5900 4300
+F 0 "#GND?" H 5900 4300 45  0001 L BNN
+F 1 "GND" H 5900 4181 45  0000 C CNN
+F 2 "" H 5900 4300 60  0001 C CNN
+F 3 "" H 5900 4300 60  0001 C CNN
+	1    5900 4300
+	1    0    0    -1  
+$EndComp
+Text GLabel 6150 3900 2    50   Input ~ 0
+FSHout
+Wire Wire Line
+	5350 3900 5900 3900
+Connection ~ 5900 3900
+Wire Wire Line
+	5050 3900 4800 3900
+Wire Wire Line
+	4800 3900 4800 3800
+$Comp
+L transistors:J201SOT-23 Q?
+U 1 1 5AD24500
+P 5100 2550
+F 0 "Q?" H 5241 2592 45  0000 L CNN
+F 1 "J201SOT-23" H 5241 2508 45  0000 L CNN
+F 2 "Transistors:SOT-23" H 5130 2700 20  0001 C CNN
+F 3 "" H 5100 2550 50  0001 C CNN
+	1    5100 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2650 4900 2650
+Connection ~ 3750 2650
+Text GLabel 5200 3450 3    50   Input ~ 0
+-8v
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AD24A30
+P 5200 3200
+F 0 "R?" V 5158 3253 45  0000 L CNN
+F 1 "12k" V 5242 3253 45  0000 L CNN
+F 2 "Resistors:R0207_3" H 5250 3250 20  0001 C CNN
+F 3 "" H 5200 3200 60  0001 C CNN
+	1    5200 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 3350 5200 3450
+Wire Wire Line
+	4800 3150 4800 2900
+Wire Wire Line
+	4800 2900 5200 2900
+Wire Wire Line
+	5200 2900 5200 2750
+Connection ~ 4800 3150
+Wire Wire Line
+	5200 3050 5200 2900
+Connection ~ 5200 2900
+Text GLabel 5200 2250 1    50   Input ~ 0
++8v
+Wire Wire Line
+	5200 2250 5200 2350
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AD2590B
+P 5550 2900
+F 0 "R?" H 5500 3000 45  0000 L CNN
+F 1 "100k" H 5500 2800 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 5600 2950 20  0001 C CNN
+F 3 "" H 5550 2900 60  0001 C CNN
+	1    5550 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AD259AF
+P 5800 3200
+F 0 "R?" V 5758 3253 45  0000 L CNN
+F 1 "3k3" V 5842 3253 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 5850 3250 20  0001 C CNN
+F 3 "" H 5800 3200 60  0001 C CNN
+	1    5800 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5AD25A29
+P 5800 3450
+F 0 "#GND?" H 5800 3450 45  0001 L BNN
+F 1 "GND" H 5800 3331 45  0000 C CNN
+F 2 "" H 5800 3450 60  0001 C CNN
+F 3 "" H 5800 3450 60  0001 C CNN
+	1    5800 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2900 5400 2900
+Wire Wire Line
+	5700 2900 5800 2900
+Wire Wire Line
+	5800 2900 5800 3050
+$Comp
+L Cygni-PulsarV2.1-rescue:LM13700N-ota-Cygni-Pulsar-V1.2-rescue-Cygni-Pulsar-V1.2-rescue-Cygni-Pulsar-V2.0-rescue-Cygni-PulsarV2.1-rescue IC?
+U 4 1 5AD26301
+P 6250 2550
+F 0 "IC?" H 6200 2750 45  0000 L CNN
+F 1 "LM13700N" H 6050 2300 45  0000 L CNN
+F 2 "Integrated-Circuits:DIL16" H 6280 2700 20  0001 C CNN
+F 3 "" H 6250 2550 50  0001 C CNN
+	4    6250 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2900 5800 2650
+Wire Wire Line
+	5800 2650 5950 2650
+Connection ~ 5800 2900
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AD27EF3
+P 5800 2250
+F 0 "R?" V 5850 2350 45  0000 L CNN
+F 1 "3k3" V 5750 2300 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 5850 2300 20  0001 C CNN
+F 3 "" H 5800 2250 60  0001 C CNN
+	1    5800 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 2450 5800 2450
+Wire Wire Line
+	5800 2450 5800 2400
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5AD28F69
+P 5800 2000
+F 0 "#GND?" H 5800 2000 45  0001 L BNN
+F 1 "GND" H 5800 1881 45  0000 C CNN
+F 2 "" H 5800 2000 60  0001 C CNN
+F 3 "" H 5800 2000 60  0001 C CNN
+	1    5800 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AD28FD0
+P 6550 2100
+F 0 "R?" V 6508 2153 45  0000 L CNN
+F 1 "22k" V 6592 2153 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 6600 2150 20  0001 C CNN
+F 3 "" H 6550 2100 60  0001 C CNN
+	1    6550 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 1950 6550 1700
+Wire Wire Line
+	6550 1700 4150 1700
+Wire Wire Line
+	3300 1700 3300 2050
+$Comp
+L FilmCapacitor:CER_FILM C?
+U 1 1 5AD297F7
+P 6900 2950
+F 0 "C?" H 7050 2950 45  0000 C CNN
+F 1 "27n" H 6755 2962 45  0000 C CNN
+F 2 "Film-Caps:BOX_MED" H 6850 2900 20  0001 C CNN
+F 3 "" V 6775 2600 60  0001 C CNN
+	1    6900 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5AD29855
+P 6900 3200
+F 0 "#GND?" H 6900 3200 45  0001 L BNN
+F 1 "GND" H 6900 3081 45  0000 C CNN
+F 2 "" H 6900 3200 60  0001 C CNN
+F 3 "" H 6900 3200 60  0001 C CNN
+	1    6900 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2550 6900 2550
+Wire Wire Line
+	6900 2550 6900 2800
+Wire Wire Line
+	6900 1500 2600 1500
+Wire Wire Line
+	2600 1500 2600 2550
+Wire Wire Line
+	2600 2550 2700 2550
+Wire Wire Line
+	5900 3900 6150 3900
+Wire Wire Line
+	1150 2775 1150 4275
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R4
+U 1 1 5AD2C00D
+P 2050 4450
+F 0 "R4" H 2050 4350 45  0000 L CNN
+F 1 "22k" H 2000 4550 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 2100 4500 20  0001 C CNN
+F 3 "" H 2050 4450 60  0001 C CNN
+	1    2050 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:SINGLEOPAMP-SingleOPAMP IC?
+U 1 1 5AD2CBE3
+P 2600 4350
+F 0 "IC?" H 2700 4550 45  0000 L CNN
+F 1 "LM741" H 2700 4200 45  0000 L CNN
+F 2 "Integrated-Circuits:DIL08" H 2630 4500 20  0001 C CNN
+F 3 "" H 2600 4350 50  0001 C CNN
+	1    2600 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4450 2250 4450
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5AD3578B
+P 2150 4150
+F 0 "#GND?" H 2150 4150 45  0001 L BNN
+F 1 "GND" H 2150 4031 45  0000 C CNN
+F 2 "" H 2150 4150 60  0001 C CNN
+F 3 "" H 2150 4150 60  0001 C CNN
+	1    2150 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 4250 2150 4250
+Text GLabel 2500 4000 1    50   Input ~ 0
++9v
+Wire Wire Line
+	2500 4050 2500 4000
+Text GLabel 2500 4700 3    50   Input ~ 0
+-9v
+Wire Wire Line
+	2500 4650 2500 4700
+$Comp
+L diodes:DO41.3 D?
+U 1 1 5AD37FA8
+P 2700 5250
+F 0 "D?" H 2650 5350 45  0000 C CNN
+F 1 "BAT 46" H 2650 5150 45  0000 C CNN
+F 2 "Diodes:DO41-3" H 2730 5400 20  0001 C CNN
+F 3 "" H 2700 5250 50  0001 C CNN
+	1    2700 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AD38080
+P 2650 5550
+F 0 "R?" H 2650 5500 45  0000 L CNN
+F 1 "1M" H 2600 5650 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 2700 5600 20  0001 C CNN
+F 3 "" H 2650 5550 60  0001 C CNN
+	1    2650 5550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 5250 2500 5250
+Connection ~ 2250 4450
+Wire Wire Line
+	2250 4450 2300 4450
+Wire Wire Line
+	2250 5250 2250 5550
+Wire Wire Line
+	2250 5550 2500 5550
+Connection ~ 2250 5250
+Wire Wire Line
+	2800 5250 3050 5250
+Wire Wire Line
+	3050 5250 3050 4350
+Wire Wire Line
+	3050 4350 2900 4350
+$Comp
+L diodes:DO41.3 D?
+U 1 1 5AD3AC35
+P 3350 4350
+F 0 "D?" H 3300 4450 45  0000 C CNN
+F 1 "BAT 46" H 3300 4250 45  0000 C CNN
+F 2 "Diodes:DO41-3" H 3380 4500 20  0001 C CNN
+F 3 "" H 3350 4350 50  0001 C CNN
+	1    3350 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5550 3550 5550
+Wire Wire Line
+	3550 5550 3550 4350
+Wire Wire Line
+	3550 4350 3450 4350
+Wire Wire Line
+	3150 4350 3050 4350
+Connection ~ 3050 4350
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AD3D0F3
+P 3850 4350
+F 0 "R?" H 3850 4250 45  0000 L CNN
+F 1 "240r" H 3800 4450 45  0000 L CNN
+F 2 "Resistors:R0207_3" H 3900 4400 20  0001 C CNN
+F 3 "" H 3850 4350 60  0001 C CNN
+	1    3850 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L PotentiometerStandard:Value VR?
+U 1 1 5AD3D198
+P 4350 4350
+F 0 "VR?" V 4150 4350 45  0000 C CNN
+F 1 "B5k" V 4500 4450 45  0000 C CNN
+F 2 "Potentiometers:16MM_ReverseSide" V 4300 4350 20  0001 C CNN
+F 3 "" H 4450 4250 60  0001 C CNN
+F 4 "Attack" V 4252 4350 50  0000 C CNN "Name1"
+	1    4350 4350
+	0    -1   1    0   
+$EndComp
+$Comp
+L ElectrolyticCapacitor:CapElec C?
+U 1 1 5AD3D32B
+P 4800 4600
+F 0 "C?" H 4697 4558 45  0000 R CNN
+F 1 "4u7" H 4697 4642 45  0000 R CNN
+F 2 "Electro-Caps:050_020_1B" V 4850 4540 20  0001 C CNN
+F 3 "" V 4450 4650 60  0001 C CNN
+	1    4800 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5AD3D3EF
+P 4800 4850
+F 0 "#GND?" H 4800 4850 45  0001 L BNN
+F 1 "GND" H 4800 4731 45  0000 C CNN
+F 2 "" H 4800 4850 60  0001 C CNN
+F 3 "" H 4800 4850 60  0001 C CNN
+	1    4800 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 4350 3700 4350
+Connection ~ 3550 4350
+Wire Wire Line
+	4000 4350 4150 4350
+Wire Wire Line
+	4800 4350 4800 4450
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AD40FC4
+P 5550 4700
+F 0 "R?" V 5600 4750 45  0000 L CNN
+F 1 "10k" V 5500 4750 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 5600 4750 20  0001 C CNN
+F 3 "" H 5550 4700 60  0001 C CNN
+	1    5550 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PotentiometerStandard:Value VR?
+U 1 1 5AD41079
+P 5550 5100
+F 0 "VR?" H 5497 5187 45  0000 R CNN
+F 1 "B500k" H 5500 5000 45  0000 R CNN
+F 2 "Potentiometers:16MM_ReverseSide" V 5500 5100 20  0001 C CNN
+F 3 "" H 5650 5000 60  0001 C CNN
+F 4 "Decay" H 5500 5100 50  0000 R CNN "Name1"
+	1    5550 5100
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5550 5300 3    50   Input ~ 0
+-9v
+Wire Wire Line
+	4550 4350 4650 4350
+Connection ~ 4800 4350
+Wire Wire Line
+	4800 4350 5550 4350
+Wire Wire Line
+	5550 4850 5550 4900
+Wire Wire Line
+	5300 5100 5300 4850
+Wire Wire Line
+	5300 4850 5550 4850
+Connection ~ 5550 4850
+Wire Wire Line
+	5350 5100 5300 5100
+$Comp
+L switches:3PDT F/SH?
+U 1 1 5AD4B984
+P 7300 5300
+F 0 "F/SH?" V 7225 5100 45  0000 R CNN
+F 1 "3PDT" V 7300 5300 45  0001 L BNN
+F 2 "Switches:3PDT" H 7330 5450 20  0001 C CNN
+F 3 "" H 7300 5300 50  0001 C CNN
+	1    7300 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AD52B31
+P 7250 4900
+F 0 "R?" V 7275 4725 45  0000 L CNN
+F 1 "22k" V 7200 4700 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 7300 4950 20  0001 C CNN
+F 3 "" H 7250 4900 60  0001 C CNN
+	1    7250 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L transistors:2N3906 Q?
+U 1 1 5AD54894
+P 7150 4550
+F 0 "Q?" H 7291 4508 45  0000 L CNN
+F 1 "2N3906" H 7291 4592 45  0000 L CNN
+F 2 "Transistors:TO92-" H 7180 4700 20  0001 C CNN
+F 3 "" H 7150 4550 50  0001 C CNN
+	1    7150 4550
+	1    0    0    1   
+$EndComp
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5AD5AD4D
+P 6850 4550
+F 0 "#GND?" H 6850 4550 45  0001 L BNN
+F 1 "GND" H 6850 4431 45  0000 C CNN
+F 2 "" H 6850 4550 60  0001 C CNN
+F 3 "" H 6850 4550 60  0001 C CNN
+	1    6850 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 4350 5550 4550
+Wire Wire Line
+	6050 5600 6050 4550
+Wire Wire Line
+	6050 4550 5550 4550
+Connection ~ 5550 4550
+Wire Wire Line
+	7150 5600 7150 5450
+Wire Wire Line
+	7150 5600 6050 5600
+Wire Wire Line
+	6950 4550 7050 4550
+Connection ~ 7250 4750
+$Comp
+L FilmCapacitor:CER_FILM C?
+U 1 1 5AD63FC3
+P 7700 4150
+F 0 "C?" V 7750 4250 45  0000 C CNN
+F 1 "150n" V 7555 4162 45  0000 C CNN
+F 2 "Film-Caps:BOX_BIG" H 7650 4100 20  0001 C CNN
+F 3 "" V 7575 3800 60  0001 C CNN
+	1    7700 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AD64190
+P 7700 3900
+F 0 "R?" H 7550 3950 45  0000 L CNN
+F 1 "2M7" H 7650 3850 45  0000 L CNN
+F 2 "Resistors:R0207_3" H 7750 3950 20  0001 C CNN
+F 3 "" H 7700 3900 60  0001 C CNN
+	1    7700 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 3900 7250 3900
+Connection ~ 7250 3900
+Wire Wire Line
+	7250 3900 7250 4150
+Wire Wire Line
+	7550 4150 7250 4150
+Connection ~ 7250 4150
+Wire Wire Line
+	7250 4150 7250 4350
+Wire Wire Line
+	7850 3900 8000 3900
+Wire Wire Line
+	8000 4150 7850 4150
+Wire Wire Line
+	8000 3900 8000 4150
+Connection ~ 8000 4150
+Wire Wire Line
+	8000 4150 8000 4250
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5AD6B991
+P 8000 4350
+F 0 "#GND?" H 8000 4350 45  0001 L BNN
+F 1 "GND" H 8000 4231 45  0000 C CNN
+F 2 "" H 8000 4350 60  0001 C CNN
+F 3 "" H 8000 4350 60  0001 C CNN
+	1    8000 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 1700 6950 1700
+Wire Wire Line
+	7250 1700 7250 3900
+Connection ~ 6550 1700
+Wire Wire Line
+	6850 1700 6850 1650
+Wire Wire Line
+	6850 1650 6950 1650
+Wire Wire Line
+	6950 1650 6950 1700
+Wire Wire Line
+	6850 1700 6550 1700
+Wire Wire Line
+	6900 1500 6900 2550
+Connection ~ 6900 2550
+Text GLabel 8350 4300 1    50   Input ~ 0
++9v
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AD72522
+P 8350 4550
+F 0 "R?" V 8308 4603 45  0000 L CNN
+F 1 "1M" V 8392 4603 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 8400 4600 20  0001 C CNN
+F 3 "" H 8350 4550 60  0001 C CNN
+	1    8350 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8350 4300 8350 4400
+Wire Wire Line
+	7250 4750 8350 4750
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AD8247F
+P 8350 4900
+F 0 "R?" V 8308 4953 45  0000 L CNN
+F 1 "100k" V 8392 4953 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 8400 4950 20  0001 C CNN
+F 3 "" H 8350 4900 60  0001 C CNN
+	1    8350 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L switches:3PDT F/SH?
+U 2 1 5AD8496F
+P 8400 5300
+F 0 "F/SH?" V 8275 5150 45  0000 R CNN
+F 1 "3PDT" V 8400 5300 45  0001 L BNN
+F 2 "Switches:3PDT" H 8430 5450 20  0001 C CNN
+F 3 "" H 8400 5300 50  0001 C CNN
+	2    8400 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8350 4750 8350 4700
+Connection ~ 8350 4750
+Wire Wire Line
+	8700 5500 8450 5500
+Wire Wire Line
+	8450 5500 8450 5450
+Text GLabel 8900 5200 1    50   Input ~ 0
++9v
+Wire Wire Line
+	8900 5300 8900 5200
+Text GLabel 8900 5700 3    50   Input ~ 0
+-9v
+Wire Wire Line
+	7350 5450 7350 6000
+Text GLabel 7600 800  1    50   Input ~ 0
++9v
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AD91A11
+P 7600 1050
+F 0 "R?" V 7558 1103 45  0000 L CNN
+F 1 "100k" V 7642 1103 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 7650 1100 20  0001 C CNN
+F 3 "" H 7600 1050 60  0001 C CNN
+	1    7600 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 800  7600 900 
+Text GLabel 7600 1850 3    50   Input ~ 0
+-9v
+$Comp
+L transistors:2N5088- Q?
+U 1 1 5AD94500
+P 7500 1550
+F 0 "Q?" H 7641 1508 45  0000 L CNN
+F 1 "2N5088-" H 7641 1592 45  0000 L CNN
+F 2 "Transistors:TO92-" H 7530 1700 20  0001 C CNN
+F 3 "" H 7500 1550 50  0001 C CNN
+	1    7500 1550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7600 1200 7600 1300
+Wire Wire Line
+	7600 1750 7600 1850
+NoConn ~ 7400 1550
+$Comp
+L FilmCapacitor:CER_FILM C?
+U 1 1 5ADA253A
+P 8000 1300
+F 0 "C?" V 7850 1300 45  0000 C CNN
+F 1 "47n" V 8150 1300 45  0000 C CNN
+F 2 "Film-Caps:BOX_SMALL" H 7950 1250 20  0001 C CNN
+F 3 "" V 7875 950 60  0001 C CNN
+	1    8000 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7850 1300 7600 1300
+Connection ~ 7600 1300
+Wire Wire Line
+	7600 1300 7600 1350
+$Comp
+L Cygni-PulsarV2.1-rescue:SINGLEOPAMP-SingleOPAMP IC?
+U 1 1 5ADA7ACA
+P 8600 1200
+F 0 "IC?" H 8700 1400 45  0000 L CNN
+F 1 "LM741" H 8700 1050 45  0000 L CNN
+F 2 "Integrated-Circuits:DIL08" H 8630 1350 20  0001 C CNN
+F 3 "" H 8600 1200 50  0001 C CNN
+	1    8600 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 1300 8200 1300
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5ADAA7A3
+P 8200 800
+F 0 "#GND?" H 8200 800 45  0001 L BNN
+F 1 "GND" H 8200 681 45  0000 C CNN
+F 2 "" H 8200 800 60  0001 C CNN
+F 3 "" H 8200 800 60  0001 C CNN
+	1    8200 800 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8300 1100 8200 1100
+Wire Wire Line
+	8200 1100 8200 900 
+Text GLabel 8500 850  1    50   Input ~ 0
++9v
+Wire Wire Line
+	8500 900  8500 850 
+Text GLabel 8500 1550 3    50   Input ~ 0
+-9v
+Wire Wire Line
+	8500 1500 8500 1550
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5ADB636F
+P 8650 1900
+F 0 "R?" H 8600 1800 45  0000 L CNN
+F 1 "1M" H 8600 2000 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 8700 1950 20  0001 C CNN
+F 3 "" H 8650 1900 60  0001 C CNN
+	1    8650 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8500 1900 8200 1900
+Wire Wire Line
+	8200 1900 8200 1300
+Connection ~ 8200 1300
+Wire Wire Line
+	8200 1300 8150 1300
+Wire Wire Line
+	8800 1900 9000 1900
+Wire Wire Line
+	9000 1900 9000 1200
+Wire Wire Line
+	9000 1200 8900 1200
+Wire Wire Line
+	9550 1250 9550 1200
+Wire Wire Line
+	9550 1200 9000 1200
+Connection ~ 9000 1200
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5ADBFE5B
+P 9550 1750
+F 0 "#GND?" H 9550 1750 45  0001 L BNN
+F 1 "GND" H 9550 1631 45  0000 C CNN
+F 2 "" H 9550 1750 60  0001 C CNN
+F 3 "" H 9550 1750 60  0001 C CNN
+	1    9550 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L transistors:J201SOT-23 Q?
+U 1 1 5ADC00F0
+P 10000 1550
+F 0 "Q?" V 10267 1550 45  0000 C CNN
+F 1 "J201SOT-23" V 10183 1550 45  0000 C CNN
+F 2 "Transistors:SOT-23" H 10030 1700 20  0001 C CNN
+F 3 "" H 10000 1550 50  0001 C CNN
+	1    10000 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9750 1450 9800 1450
+$Comp
+L FilmCapacitor:CER_FILM C?
+U 1 1 5ADCE131
+P 10400 1600
+F 0 "C?" H 10550 1600 45  0000 C CNN
+F 1 "47n" H 10255 1612 45  0000 C CNN
+F 2 "Film-Caps:BOX_SMALL" H 10350 1550 20  0001 C CNN
+F 3 "" V 10275 1250 60  0001 C CNN
+	1    10400 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10200 1450 10400 1450
+$Comp
+L transistors:J201SOT-23 Q?
+U 1 1 5ADD18B6
+P 10800 1350
+F 0 "Q?" H 10941 1392 45  0000 L CNN
+F 1 "J201SOT-23" H 10941 1308 45  0000 L CNN
+F 2 "Transistors:SOT-23" H 10830 1500 20  0001 C CNN
+F 3 "" H 10800 1350 50  0001 C CNN
+	1    10800 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 1450 10400 1450
+Connection ~ 10400 1450
+Text GLabel 10900 1150 1    50   Input ~ 0
++9v
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5ADD502D
+P 10900 1800
+F 0 "R?" V 10858 1853 45  0000 L CNN
+F 1 "22k" V 10942 1853 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 10950 1850 20  0001 C CNN
+F 3 "" H 10900 1800 60  0001 C CNN
+	1    10900 1800
+	0    1    1    0   
+$EndComp
+Text GLabel 10900 1950 3    50   Input ~ 0
+-9v
+Wire Wire Line
+	10900 1550 10900 1600
+Wire Wire Line
+	10900 1600 11150 1600
+Wire Wire Line
+	11150 1600 11150 6000
+Connection ~ 10900 1600
+Wire Wire Line
+	10900 1600 10900 1650
+Wire Wire Line
+	7350 6000 11150 6000
+Text GLabel 10400 1750 3    50   Input ~ 0
+-9v
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5ADDFCBC
+P 10100 2050
+F 0 "R?" V 10058 2103 45  0000 L CNN
+F 1 "1M" V 10142 2103 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 10150 2100 20  0001 C CNN
+F 3 "" H 10100 2050 60  0001 C CNN
+	1    10100 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10100 1750 10100 1900
+$Comp
+L switches:3PDT F/SH?
+U 3 1 5ADE391E
+P 9800 2450
+F 0 "F/SH?" V 9600 2450 45  0000 C CNN
+F 1 "3PDT" V 9800 2450 45  0001 L BNN
+F 2 "Switches:3PDT" H 9830 2600 20  0001 C CNN
+F 3 "" H 9800 2450 50  0001 C CNN
+	3    9800 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 2200 10100 2400
+Wire Wire Line
+	10100 2400 9950 2400
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5ADE7C0E
+P 9300 2500
+F 0 "R?" H 9300 2400 45  0000 L CNN
+F 1 "180k" H 9250 2600 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 9350 2550 20  0001 C CNN
+F 3 "" H 9300 2500 60  0001 C CNN
+	1    9300 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L PotentiometerStandard:Value VR?
+U 1 1 5ADE7DC8
+P 8800 2500
+F 0 "VR?" V 9000 2600 45  0000 C CNN
+F 1 "B1M" V 8700 2500 45  0000 C CNN
+F 2 "Potentiometers:16MM_ReverseSide" V 8750 2500 20  0001 C CNN
+F 3 "" H 8900 2400 60  0001 C CNN
+F 4 "Speed" V 8650 2500 50  0000 C CNN "Name1"
+	1    8800 2500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	9550 2500 9450 2500
+Wire Wire Line
+	9150 2500 9000 2500
+Wire Wire Line
+	8800 2300 8500 2300
+Wire Wire Line
+	8500 2300 8500 2500
+Wire Wire Line
+	8500 2500 8600 2500
+$Comp
+L FilmCapacitor:CER_FILM C?
+U 1 1 5ADF74E2
+P 7800 3250
+F 0 "C?" H 7950 3200 45  0000 C CNN
+F 1 "330n" H 7700 3350 45  0000 C CNN
+F 2 "Film-Caps:BOX_BIG" H 7750 3200 20  0001 C CNN
+F 3 "" V 7675 2900 60  0001 C CNN
+	1    7800 3250
+	-1   0    0    1   
+$EndComp
+Text GLabel 7800 3400 3    50   Input ~ 0
+-9v
+Wire Wire Line
+	8100 2500 8500 2500
+Connection ~ 8500 2500
+$Comp
+L diodes:DO41.3 D?
+U 1 1 5ADFFC0B
+P 9050 3000
+F 0 "D?" H 9000 2900 45  0000 C CNN
+F 1 "1N4001" H 9000 3100 45  0000 C CNN
+F 2 "Diodes:DO41-3" H 9080 3150 20  0001 C CNN
+F 3 "" H 9050 3000 50  0001 C CNN
+	1    9050 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AE000ED
+P 9550 3000
+F 0 "R?" H 9500 2900 45  0000 L CNN
+F 1 "3k3" H 9500 3100 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 9600 3050 20  0001 C CNN
+F 3 "" H 9550 3000 60  0001 C CNN
+	1    9550 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9250 3000 9400 3000
+Wire Wire Line
+	8950 3000 8100 3000
+Wire Wire Line
+	8100 3000 8100 2500
+Wire Wire Line
+	10100 2400 10100 2650
+Wire Wire Line
+	10100 3000 9700 3000
+Connection ~ 10100 2400
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AE0D0A7
+P 10650 3150
+F 0 "R?" V 10700 3000 45  0000 L CNN
+F 1 "1k" V 10600 2950 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 10700 3200 20  0001 C CNN
+F 3 "" H 10650 3150 60  0001 C CNN
+	1    10650 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L diodes:LEDA SpeedLED?
+U 1 1 5AE0D21E
+P 10650 3500
+F 0 "SpeedLED?" V 10700 3423 45  0000 R CNN
+F 1 "LEDA" H 10650 3500 45  0001 L BNN
+F 2 "Diodes:3MM_B" H 10680 3650 20  0001 C CNN
+F 3 "" H 10650 3500 50  0001 C CNN
+	1    10650 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5AE0D3BE
+P 10650 3700
+F 0 "#GND?" H 10650 3700 45  0001 L BNN
+F 1 "GND" H 10650 3581 45  0000 C CNN
+F 2 "" H 10650 3700 60  0001 C CNN
+F 3 "" H 10650 3700 60  0001 C CNN
+	1    10650 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 3000 10100 3000
+Connection ~ 10100 3000
+$Comp
+L Cygni-PulsarV2.1-rescue:SINGLEOPAMP-SingleOPAMP IC?
+U 1 1 5AE11DC4
+P 9450 3800
+F 0 "IC?" H 9550 4000 45  0000 L CNN
+F 1 "LM741" H 9550 3650 45  0000 L CNN
+F 2 "Integrated-Circuits:DIL08" H 9480 3950 20  0001 C CNN
+F 3 "" H 9450 3800 50  0001 C CNN
+	1    9450 3800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8100 3000 7800 3000
+Wire Wire Line
+	7800 3000 7800 3100
+Connection ~ 8100 3000
+Wire Wire Line
+	8100 3000 8100 3700
+Wire Wire Line
+	8100 3700 9150 3700
+Text GLabel 9350 4100 3    50   Input ~ 0
++9v
+Text GLabel 9350 3500 1    50   Input ~ 0
+-9v
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5AE2033A
+P 8850 4300
+F 0 "#GND?" H 8850 4300 45  0001 L BNN
+F 1 "GND" H 8850 4181 45  0000 C CNN
+F 2 "" H 8850 4300 60  0001 C CNN
+F 3 "" H 8850 4300 60  0001 C CNN
+	1    8850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AE203C5
+P 8850 4050
+F 0 "R?" V 8900 4100 45  0000 L CNN
+F 1 "47k" V 8800 4100 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 8900 4100 20  0001 C CNN
+F 3 "" H 8850 4050 60  0001 C CNN
+	1    8850 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8850 3900 9050 3900
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AE251DE
+P 9450 4500
+F 0 "R?" H 9400 4400 45  0000 L CNN
+F 1 "22k" H 9400 4600 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 9500 4550 20  0001 C CNN
+F 3 "" H 9450 4500 60  0001 C CNN
+	1    9450 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10100 3000 10100 3800
+Wire Wire Line
+	10100 3800 9750 3800
+Wire Wire Line
+	9600 4500 10100 4500
+Wire Wire Line
+	10100 4500 10100 3800
+Connection ~ 10100 3800
+Wire Wire Line
+	9300 4500 9050 4500
+Wire Wire Line
+	9050 4500 9050 3900
+Connection ~ 9050 3900
+Wire Wire Line
+	9050 3900 9150 3900
+Text GLabel 1000 6500 0    50   Input ~ 0
+FSHpower
+$Comp
+L diodes:DO41.3 D?
+U 1 1 5AE3B3C8
+P 1350 6500
+F 0 "D?" H 1300 6600 45  0000 C CNN
+F 1 "1N5817" H 1300 6400 45  0000 C CNN
+F 2 "Diodes:DO41-3" H 1380 6650 20  0001 C CNN
+F 3 "" H 1350 6500 50  0001 C CNN
+	1    1350 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L diodes:ZENER.3 D?
+U 1 1 5AE3B5D0
+P 1950 6850
+F 0 "D?" V 2050 7050 45  0000 R CNN
+F 1 "12.1v" V 1950 7100 45  0000 R CNN
+F 2 "Diodes:DO41-3" H 1980 7000 20  0001 C CNN
+F 3 "" H 1950 6850 50  0001 C CNN
+	1    1950 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FilmCapacitor:CER_FILM C?
+U 1 1 5AE3BAE3
+P 2400 6800
+F 0 "C?" H 2450 6700 45  0000 C CNN
+F 1 "100n" H 2500 6900 45  0000 C CNN
+F 2 "Film-Caps:BOX_SMALL" H 2350 6750 20  0001 C CNN
+F 3 "" V 2275 6450 60  0001 C CNN
+	1    2400 6800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1000 6500 1150 6500
+Wire Wire Line
+	1950 6500 1950 6650
+Wire Wire Line
+	1950 6500 2400 6500
+Wire Wire Line
+	2400 6500 2400 6650
+Connection ~ 1950 6500
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5AE4C75D
+P 1950 7500
+F 0 "#GND?" H 1950 7500 45  0001 L BNN
+F 1 "GND" H 1950 7381 45  0000 C CNN
+F 2 "" H 1950 7500 60  0001 C CNN
+F 3 "" H 1950 7500 60  0001 C CNN
+	1    1950 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 6950 1950 7000
+Wire Wire Line
+	2400 6950 2400 7000
+Wire Wire Line
+	2400 7000 1950 7000
+Connection ~ 1950 7000
+Wire Wire Line
+	1950 7000 1950 7250
+$Comp
+L integrated_circuits:DIL8 IC?
+U 1 1 5AE58837
+P 3100 7150
+F 0 "IC?" H 3100 7454 45  0000 C CNN
+F 1 "TC1044SCPA" H 3100 7370 45  0000 C CNN
+F 2 "Integrated-Circuits:DIL08" H 3130 7300 20  0001 C CNN
+F 3 "" H 3100 7150 50  0001 C CNN
+	1    3100 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 7050 2700 7050
+Wire Wire Line
+	2700 7050 2700 6500
+Wire Wire Line
+	2700 6500 2400 6500
+Connection ~ 2400 6500
+Wire Wire Line
+	3400 7050 3500 7050
+Wire Wire Line
+	3500 7050 3500 6500
+Wire Wire Line
+	3500 6500 2700 6500
+Connection ~ 2700 6500
+$Comp
+L ElectrolyticCapacitor:CapElec C?
+U 1 1 5AE66882
+P 2400 7450
+F 0 "C?" H 2200 7500 45  0000 L CNN
+F 1 "47u" H 2150 7400 45  0000 L CNN
+F 2 "Electro-Caps:050_020_1" V 2450 7390 20  0001 C CNN
+F 3 "" V 2050 7500 60  0001 C CNN
+	1    2400 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 7150 2800 7150
+Wire Wire Line
+	2800 7650 2400 7650
+Wire Wire Line
+	2400 7650 2400 7600
+Wire Wire Line
+	2800 7350 2800 7650
+Wire Wire Line
+	2400 7300 2400 7150
+Wire Wire Line
+	2800 7250 2450 7250
+Wire Wire Line
+	2450 7250 2450 7200
+Wire Wire Line
+	2450 7200 2350 7200
+Wire Wire Line
+	2350 7200 2350 7250
+Wire Wire Line
+	2350 7250 1950 7250
+Connection ~ 1950 7250
+Wire Wire Line
+	1950 7250 1950 7400
+$Comp
+L ElectrolyticCapacitor:CapElec C?
+U 1 1 5AE8CA9A
+P 3950 6800
+F 0 "C?" H 4053 6842 45  0000 L CNN
+F 1 "220u" H 4053 6758 45  0000 L CNN
+F 2 "Electro-Caps:080_035" V 4000 6740 20  0001 C CNN
+F 3 "" V 3600 6850 60  0001 C CNN
+	1    3950 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AE8CF77
+P 4250 6500
+F 0 "R?" H 4250 6400 45  0000 L CNN
+F 1 "470r" H 4200 6600 45  0000 L CNN
+F 2 "Resistors:R0207_3" H 4300 6550 20  0001 C CNN
+F 3 "" H 4250 6500 60  0001 C CNN
+	1    4250 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5AEAE199
+P 4250 7550
+F 0 "R?" H 4200 7500 45  0000 L CNN
+F 1 "470r" H 4150 7650 45  0000 L CNN
+F 2 "Resistors:R0207_3" H 4300 7600 20  0001 C CNN
+F 3 "" H 4250 7550 60  0001 C CNN
+	1    4250 7550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 6500 3950 6500
+Connection ~ 3500 6500
+Wire Wire Line
+	4400 6500 4550 6500
+Wire Wire Line
+	3950 6650 3950 6500
+Connection ~ 3950 6500
+Wire Wire Line
+	3950 6500 4100 6500
+Wire Wire Line
+	3950 7450 3950 7550
+Wire Wire Line
+	3950 7550 4100 7550
+Wire Wire Line
+	4400 7550 4550 7550
+Wire Wire Line
+	4550 7550 4550 7450
+Wire Wire Line
+	3950 6950 3950 7050
+Wire Wire Line
+	4550 6950 4550 7050
+Wire Wire Line
+	3950 7050 4550 7050
+Connection ~ 3950 7050
+Wire Wire Line
+	3950 7050 3950 7150
+Connection ~ 4550 7050
+Wire Wire Line
+	4550 7050 4550 7150
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5AF2BE4D
+P 4850 7050
+F 0 "#GND?" H 4850 7050 45  0001 L BNN
+F 1 "GND" H 4850 6931 45  0000 C CNN
+F 2 "" H 4850 7050 60  0001 C CNN
+F 3 "" H 4850 7050 60  0001 C CNN
+	1    4850 7050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 7050 4750 7050
+Wire Wire Line
+	3950 7550 3400 7550
+Wire Wire Line
+	3400 7550 3400 7350
+Connection ~ 3950 7550
+$Comp
+L Cygni-PulsarV2.1-rescue:LM13700N-ota-Cygni-Pulsar-V1.2-rescue-Cygni-Pulsar-V1.2-rescue-Cygni-Pulsar-V2.0-rescue-Cygni-PulsarV2.1-rescue IC?
+U 5 1 5AF4A6D0
+P 5350 7050
+F 0 "IC?" H 5450 7250 45  0000 L CNN
+F 1 "LM13700N" H 5500 7150 45  0000 L CNN
+F 2 "Integrated-Circuits:DIL16" H 5380 7200 20  0001 C CNN
+F 3 "" H 5350 7050 50  0001 C CNN
+	5    5350 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 7550 5350 7550
+Wire Wire Line
+	5350 7550 5350 7400
+Connection ~ 4550 7550
+Wire Wire Line
+	5350 6700 5350 6500
+Wire Wire Line
+	5350 6500 4550 6500
+Connection ~ 4550 6500
+Text GLabel 3950 7650 3    50   Input ~ 0
+-9v
+Wire Wire Line
+	3950 7650 3950 7550
+Text GLabel 4550 6400 1    50   Input ~ 0
++8v
+Wire Wire Line
+	4550 6400 4550 6500
+Text GLabel 3950 6400 1    50   Input ~ 0
++9v
+Wire Wire Line
+	3950 6400 3950 6500
+Text GLabel 4550 7650 3    50   Input ~ 0
+-8v
+Wire Wire Line
+	4550 7550 4550 7650
+Wire Notes Line
+	6050 6100 800  6100
+Wire Notes Line
+	800  8050 6050 8050
+Wire Notes Line
+	800  6100 800  8050
+Wire Notes Line
+	6050 6100 6050 8050
+Wire Wire Line
+	4650 4350 4650 4550
+Wire Wire Line
+	4650 4550 4350 4550
+Connection ~ 4650 4350
+Wire Wire Line
+	4650 4350 4800 4350
+$Comp
+L Cygni-PulsarV2.1-rescue:Trimpot?-potentiometers-Cygni-Pulsar-V1.2-rescue-Cygni-Pulsar-V1.2-rescue-Cygni-Pulsar-V2.0-rescue-Cygni-PulsarV2.1-rescue T/p?
+U 1 1 5B087306
+P 9550 1450
+F 0 "T/p?" H 9498 1537 45  0000 R CNN
+F 1 "10k" H 9498 1453 45  0000 R CNN
+F 2 "Potentiometers:2262_TRIM" H 9675 1650 20  0001 C CNN
+F 3 "" H 10000 1700 60  0001 C CNN
+F 4 "T2" H 9498 1366 50  0000 R CNN "Name"
+	1    9550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:Trimpot?-potentiometers-Cygni-Pulsar-V1.2-rescue-Cygni-Pulsar-V1.2-rescue-Cygni-Pulsar-V2.0-rescue-Cygni-PulsarV2.1-rescue T/p?
+U 1 1 5B094281
+P 8900 5500
+F 0 "T/p?" H 8847 5587 45  0000 R CNN
+F 1 "100k" H 8847 5503 45  0000 R CNN
+F 2 "Potentiometers:2262_TRIM" H 9025 5700 20  0001 C CNN
+F 3 "" H 9350 5750 60  0001 C CNN
+F 4 "T1" H 8847 5416 50  0000 R CNN "Name"
+	1    8900 5500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 6500 1950 6500
+$Comp
+L ElectrolyticCapacitor:CapElec C?
+U 1 1 5B0B26EC
+P 3950 7300
+F 0 "C?" H 4053 7342 45  0000 L CNN
+F 1 "220u" H 4053 7258 45  0000 L CNN
+F 2 "Electro-Caps:080_035" V 4000 7240 20  0001 C CNN
+F 3 "" V 3600 7350 60  0001 C CNN
+	1    3950 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ElectrolyticCapacitor:CapElec C?
+U 1 1 5B0B279C
+P 4550 7300
+F 0 "C?" H 4653 7342 45  0000 L CNN
+F 1 "220u" H 4653 7258 45  0000 L CNN
+F 2 "Electro-Caps:080_035" V 4600 7240 20  0001 C CNN
+F 3 "" V 4200 7350 60  0001 C CNN
+	1    4550 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ElectrolyticCapacitor:CapElec C?
+U 1 1 5B0B2858
+P 4550 6800
+F 0 "C?" H 4653 6842 45  0000 L CNN
+F 1 "220u" H 4653 6758 45  0000 L CNN
+F 2 "Electro-Caps:080_035" V 4600 6740 20  0001 C CNN
+F 3 "" V 4200 6850 60  0001 C CNN
+	1    4550 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 6500 4550 6650
+NoConn ~ 3400 7150
+NoConn ~ 3400 7250
+Text Notes 900  6050 0    98   ~ 0
+Power Supply - Filter
+Text Notes 3800 1150 0    98   ~ 0
+Filter/ Sample & Hold
+Text GLabel 7400 6550 0    50   Input ~ 0
+SynthPower
+$Comp
+L 40xx-2:4093N IC?
+U 1 1 5B0D97A3
+P 7950 6950
+F 0 "IC?" H 7950 7304 45  0000 C CNN
+F 1 "4093N" H 7950 7220 45  0000 C CNN
+F 2 "Integrated-Circuits:DIL14" H 7980 7100 20  0001 C CNN
+F 3 "" H 7950 6950 50  0001 C CNN
+	1    7950 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 40xx-2:4093N IC?
+U 2 1 5B0D9CA6
+P 11150 6950
+F 0 "IC?" H 11150 7304 45  0000 C CNN
+F 1 "4093N" H 11150 7220 45  0000 C CNN
+F 2 "Integrated-Circuits:DIL14" H 11180 7100 20  0001 C CNN
+F 3 "" H 11150 6950 50  0001 C CNN
+	2    11150 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 40xx-2:4093N IC?
+U 3 1 5B0D9D7A
+P 10050 6950
+F 0 "IC?" H 10050 7304 45  0000 C CNN
+F 1 "4093N" H 10050 7220 45  0000 C CNN
+F 2 "Integrated-Circuits:DIL14" H 10080 7100 20  0001 C CNN
+F 3 "" H 10050 6950 50  0001 C CNN
+	3    10050 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 40xx-2:4093N IC?
+U 4 1 5B0D9E3A
+P 9000 6950
+F 0 "IC?" H 9000 7304 45  0000 C CNN
+F 1 "4093N" H 9000 7220 45  0000 C CNN
+F 2 "Integrated-Circuits:DIL14" H 9030 7100 20  0001 C CNN
+F 3 "" H 9000 6950 50  0001 C CNN
+	4    9000 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 40xx-2:4093N IC?
+U 5 1 5B0DA25A
+P 7050 7050
+F 0 "IC?" H 7161 7092 45  0000 L CNN
+F 1 "4093N" H 7161 7008 45  0000 L CNN
+F 2 "Integrated-Circuits:DIL14" H 7080 7200 20  0001 C CNN
+F 3 "" H 7050 7050 50  0001 C CNN
+	5    7050 7050
+	1    0    0    -1  
+$EndComp
+Text Notes 850  8450 0    98   ~ 0
+Power & Routing
+Text Notes 550  8800 0    50   ~ 0
+Power in from 12v Switch
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5B0DC26C
+P 2200 10000
+F 0 "R?" V 2242 9947 45  0000 R CNN
+F 1 "CLR" V 2158 9947 45  0000 R CNN
+F 2 "Resistors:R0207_2V" H 2250 10050 20  0001 C CNN
+F 3 "" H 2200 10000 60  0001 C CNN
+	1    2200 10000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:GND-BoardConnections #GND?
+U 1 1 5B0DCB07
+P 2750 10250
+F 0 "#GND?" H 2750 10250 45  0001 L BNN
+F 1 "GND" H 2750 10131 45  0000 C CNN
+F 2 "" H 2750 10250 60  0001 C CNN
+F 3 "" H 2750 10250 60  0001 C CNN
+	1    2750 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:PADRND-BoardConnections LEDGND?
+U 1 1 5B10AB5C
+P 2200 9850
+F 0 "LEDGND?" H 2100 10100 45  0000 L CNN
+F 1 "DC" H 2200 9850 45  0001 L BNN
+F 2 "Supply-Pins:SQUARE" H 2230 10000 20  0001 C CNN
+F 3 "" H 2200 9850 60  0001 C CNN
+	1    2200 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5B10B00C
+P 2700 9050
+F 0 "R?" H 2700 8871 45  0000 C CNN
+F 1 "100r" H 2700 8955 45  0000 C CNN
+F 2 "Resistors:R0207_3" H 2750 9100 20  0001 C CNN
+F 3 "" H 2700 9050 60  0001 C CNN
+	1    2700 9050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:DO41.2-diodes-Cygni-Pulsar-V1.2-rescue-Cygni-Pulsar-V2.0-rescue-Cygni-PulsarV2.1-rescue D?
+U 1 1 5B116D0F
+P 2500 9450
+F 0 "D?" V 2492 9372 45  0000 R CNN
+F 1 "1N4001" V 2408 9372 45  0000 R CNN
+F 2 "Diodes:DO41-3" H 2530 9600 20  0001 C CNN
+F 3 "" H 2500 9450 50  0001 C CNN
+	1    2500 9450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1900 9050 2500 9050
+Wire Wire Line
+	2500 9350 2500 9050
+Connection ~ 2500 9050
+Wire Wire Line
+	2500 9050 2550 9050
+Wire Wire Line
+	2500 9650 2500 10150
+$Comp
+L FilmCapacitor:CER_FILM C?
+U 1 1 5B161AC1
+P 3800 9500
+F 0 "C?" H 3903 9542 45  0000 L CNN
+F 1 "100n" H 3903 9458 45  0000 L CNN
+F 2 "Film-Caps:BOX_SMALL" H 3750 9400 20  0001 C CNN
+F 3 "" V 3675 9150 60  0001 C CNN
+	1    3800 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ElectrolyticCapacitor:CapElec C?
+U 1 1 5B161BE4
+P 3000 9500
+F 0 "C?" H 3103 9542 45  0000 L CNN
+F 1 "47u" H 3103 9458 45  0000 L CNN
+F 2 "Electro-Caps:063_025" V 3050 9440 20  0001 C CNN
+F 3 "" V 2650 9550 60  0001 C CNN
+	1    3000 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ElectrolyticCapacitor:CapElec C?
+U 1 1 5B16ED55
+P 3400 9500
+F 0 "C?" H 3503 9542 45  0000 L CNN
+F 1 "47u" H 3503 9458 45  0000 L CNN
+F 2 "Electro-Caps:063_025" V 3450 9440 20  0001 C CNN
+F 3 "" V 3050 9550 60  0001 C CNN
+	1    3400 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 9650 3000 10150
+Wire Wire Line
+	3000 10150 2750 10150
+Connection ~ 2500 10150
+Wire Wire Line
+	3000 9350 3000 9050
+Wire Wire Line
+	3000 9050 2850 9050
+Wire Wire Line
+	3400 9350 3400 9050
+Wire Wire Line
+	3400 9050 3000 9050
+Connection ~ 3000 9050
+Wire Wire Line
+	3800 9350 3800 9050
+Wire Wire Line
+	3800 9050 3400 9050
+Connection ~ 3400 9050
+Wire Wire Line
+	3400 9650 3400 10150
+Wire Wire Line
+	3400 10150 3000 10150
+Connection ~ 3000 10150
+Wire Wire Line
+	3800 9650 3800 10150
+Wire Wire Line
+	3800 10150 3400 10150
+Connection ~ 3400 10150
+$Comp
+L Cygni-PulsarV2.1-rescue:IO-BoardConnections BoardConnect?
+U 1 1 5B20593C
+P 950 9450
+F 0 "BoardConnect?" H 900 9750 45  0000 C CNN
+F 1 "IO" H 800 9350 45  0001 L BNN
+F 2 "Supply-Pins:BoardConnect4" H 930 9750 20  0001 C CNN
+F 3 "" H 1150 9450 60  0001 C CNN
+	1    950  9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:GND-BoardConnections #GND?
+U 1 1 5B223352
+P 1200 9450
+F 0 "#GND?" H 1200 9450 45  0001 L BNN
+F 1 "GND" V 1200 9372 45  0000 R CNN
+F 2 "" H 1200 9450 60  0001 C CNN
+F 3 "" H 1200 9450 60  0001 C CNN
+	1    1200 9450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 9450 950  9450
+Text GLabel 1100 9600 2    50   Input ~ 0
+PowerIn
+Text GLabel 1100 9750 2    50   Input ~ 0
+JackIn
+Text GLabel 1100 9300 2    50   Input ~ 0
+JackOut
+Wire Wire Line
+	1100 9300 950  9300
+Wire Wire Line
+	1100 9750 950  9750
+Wire Wire Line
+	950  9600 1100 9600
+Text GLabel 1900 9050 0    50   Input ~ 0
+PowerIn
+Connection ~ 2200 10150
+Wire Wire Line
+	2200 10150 2500 10150
+$Comp
+L Cygni-PulsarV2.1-rescue:PADRND-BoardConnections GND?
+U 1 1 5B29D68B
+P 1700 9850
+F 0 "GND?" H 1600 10100 45  0000 L CNN
+F 1 "DC" H 1700 9850 45  0001 L BNN
+F 2 "Supply-Pins:SQUARE" H 1730 10000 20  0001 C CNN
+F 3 "" H 1700 9850 60  0001 C CNN
+	1    1700 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:PADRND-BoardConnections GND?
+U 1 1 5B29D94A
+P 1950 9850
+F 0 "GND?" H 1850 10100 45  0000 L CNN
+F 1 "DC" H 1950 9850 45  0001 L BNN
+F 2 "Supply-Pins:SQUARE" H 1980 10000 20  0001 C CNN
+F 3 "" H 1950 9850 60  0001 C CNN
+	1    1950 9850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2750 10150
+Wire Wire Line
+	2750 10150 2500 10150
+Wire Wire Line
+	1950 9850 1950 10150
+Connection ~ 1950 10150
+Wire Wire Line
+	1950 10150 2200 10150
+Wire Wire Line
+	1700 10150 1700 9850
+Wire Wire Line
+	1700 10150 1950 10150
+$Comp
+L switches:4P3T SW?
+U 1 1 5B2CB792
+P 7250 9350
+F 0 "SW?" H 7350 9655 45  0000 C CNN
+F 1 "4P3T" H 7250 9350 45  0001 L BNN
+F 2 "Switches:4P3T" H 7280 9500 20  0001 C CNN
+F 3 "" H 7250 9350 50  0001 C CNN
+	1    7250 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:4P3T SW?
+U 2 1 5B2CB8B2
+P 7200 10300
+F 0 "SW?" H 7300 10605 45  0000 C CNN
+F 1 "4P3T" H 7200 10300 45  0001 L BNN
+F 2 "Switches:4P3T" H 7230 10450 20  0001 C CNN
+F 3 "" H 7200 10300 50  0001 C CNN
+	2    7200 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:4P3T SW?
+U 3 1 5B2CB9FA
+P 8950 9450
+F 0 "SW?" H 9050 9755 45  0000 C CNN
+F 1 "4P3T" H 8950 9450 45  0001 L BNN
+F 2 "Switches:4P3T" H 8980 9600 20  0001 C CNN
+F 3 "" H 8950 9450 50  0001 C CNN
+	3    8950 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:4P3T SW?
+U 4 1 5B2CBB0C
+P 8900 10700
+F 0 "SW?" H 9000 11005 45  0000 C CNN
+F 1 "4P3T" H 8900 10700 45  0001 L BNN
+F 2 "Switches:4P3T" H 8930 10850 20  0001 C CNN
+F 3 "" H 8900 10700 50  0001 C CNN
+	4    8900 10700
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 10100 2    50   Input ~ 0
+JackIn
+Wire Wire Line
+	7500 10100 7500 9900
+Text GLabel 7000 10300 0    50   Input ~ 0
+JackOut
+Text GLabel 13050 7150 2    50   Input ~ 0
+SynthOut
+Text GLabel 7550 9550 2    50   Input ~ 0
+SynthOut
+Wire Wire Line
+	8000 9350 8000 9900
+Wire Wire Line
+	7500 9900 8000 9900
+Wire Wire Line
+	7650 9350 8000 9350
+NoConn ~ 7550 9150
+Text GLabel 7650 10400 2    50   Input ~ 0
+FSHbypassOut
+Wire Wire Line
+	7600 10300 7600 10400
+Wire Wire Line
+	7600 10400 7650 10400
+Wire Wire Line
+	7600 10400 7600 10500
+Wire Wire Line
+	7600 10500 7500 10500
+Connection ~ 7600 10400
+Text GLabel 3800 9050 2    50   Input ~ 0
+PowerRoute
+Text GLabel 8500 10700 0    50   Input ~ 0
+SynthPower
+Text GLabel 8550 9450 0    50   Input ~ 0
+FSHpower
+Text GLabel 9850 9900 2    50   Input ~ 0
+PowerRoute
+Wire Wire Line
+	9850 9900 9650 9900
+Wire Wire Line
+	9350 9450 9350 9550
+Wire Wire Line
+	9350 9650 9250 9650
+Wire Wire Line
+	9350 9550 9650 9550
+Wire Wire Line
+	9650 9550 9650 9900
+Connection ~ 9350 9550
+Wire Wire Line
+	9350 9550 9350 9650
+Connection ~ 9650 9900
+NoConn ~ 9250 9250
+NoConn ~ 9200 10500
+NoConn ~ 9300 10700
+$Comp
+L switches:3PDT FSHbypass?
+U 1 1 5B41A9D8
+P 5350 8900
+F 0 "FSHbypass?" V 5150 8900 45  0000 C CNN
+F 1 "3PDT" V 5350 8900 45  0001 L BNN
+F 2 "Switches:3PDT" H 5380 9050 20  0001 C CNN
+F 3 "" H 5350 8900 50  0001 C CNN
+	1    5350 8900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L switches:3PDT FSHbypass?
+U 2 1 5B41ACB3
+P 5400 9400
+F 0 "FSHbypass?" V 5200 9400 45  0000 C CNN
+F 1 "3PDT" V 5400 9400 45  0001 L BNN
+F 2 "Switches:3PDT" H 5430 9550 20  0001 C CNN
+F 3 "" H 5400 9400 50  0001 C CNN
+	2    5400 9400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L switches:3PDT FSHbypass?
+U 3 1 5B41AD9F
+P 5400 9900
+F 0 "FSHbypass?" V 5200 9900 45  0000 C CNN
+F 1 "3PDT" V 5400 9900 45  0001 L BNN
+F 2 "Switches:3PDT" H 5430 10050 20  0001 C CNN
+F 3 "" H 5400 9900 50  0001 C CNN
+	3    5400 9900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L diodes:LEDA FSHbLED?
+U 1 1 5B42DF90
+P 5250 10250
+F 0 "FSHbLED?" V 5300 10173 45  0000 R CNN
+F 1 "LEDA" H 5250 10250 45  0001 L BNN
+F 2 "Diodes:3MM_B" H 5280 10400 20  0001 C CNN
+F 3 "" H 5250 10250 50  0001 C CNN
+	1    5250 10250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5B42E518
+P 5250 10500
+F 0 "R?" V 5292 10447 45  0000 R CNN
+F 1 "CLR" V 5208 10447 45  0000 R CNN
+F 2 "Resistors:R0207_2V" H 5300 10550 20  0001 C CNN
+F 3 "" H 5250 10500 60  0001 C CNN
+	1    5250 10500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:GND-BoardConnections #GND?
+U 1 1 5B42EAE6
+P 5250 10750
+F 0 "#GND?" H 5250 10750 45  0001 L BNN
+F 1 "GND" H 5250 10650 45  0000 C CNN
+F 2 "" H 5250 10750 60  0001 C CNN
+F 3 "" H 5250 10750 60  0001 C CNN
+	1    5250 10750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 10900 9200 10900
+Wire Wire Line
+	9650 9900 9650 10900
+Wire Wire Line
+	8700 10700 8500 10700
+Text Notes 4750 10250 0    50   ~ 0
+Pink LED
+Text Notes 10150 3450 0    50   ~ 0
+Speed  LED\nBlue
+Text Notes 5050 8650 0    50   ~ 0
+Filter/ Sample & Hold\nBypass Switch\n
+Text GLabel 7050 9350 0    50   Input ~ 0
+FSHbypassIN
+Text GLabel 5600 8950 2    50   Input ~ 0
+FSHbypassIN
+Text GLabel 5200 9050 0    50   Input ~ 0
+FSHin
+Text GLabel 5650 9450 2    50   Input ~ 0
+FSHbypassOut
+Text GLabel 5250 9550 0    50   Input ~ 0
+FSHout
+Wire Wire Line
+	5200 8850 4800 8850
+Wire Wire Line
+	4800 8850 4800 9350
+Wire Wire Line
+	4800 9350 5250 9350
+Text GLabel 5650 9950 2    50   Input ~ 0
+PowerRoute
+Wire Wire Line
+	8550 9450 8650 9450
+Text Notes 8250 9200 0    50   ~ 0
+Rotary Switch\nPower/Routing\n\n
+$Comp
+L diodes:LEDA FSHpLED?
+U 1 1 5B53E49B
+P 8650 9650
+F 0 "FSHpLED?" V 8600 10150 45  0000 R CNN
+F 1 "LEDA" H 8650 9650 45  0001 L BNN
+F 2 "Diodes:3MM_B" H 8680 9800 20  0001 C CNN
+F 3 "" H 8650 9650 50  0001 C CNN
+	1    8650 9650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5B53E585
+P 8650 9900
+F 0 "R?" V 8692 9847 45  0000 R CNN
+F 1 "CLR" V 8608 9847 45  0000 R CNN
+F 2 "Resistors:R0207_2V" H 8700 9950 20  0001 C CNN
+F 3 "" H 8650 9900 60  0001 C CNN
+	1    8650 9900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:GND-BoardConnections #GND?
+U 1 1 5B53E671
+P 8650 10150
+F 0 "#GND?" H 8650 10150 45  0001 L BNN
+F 1 "GND" H 8650 10050 45  0000 C CNN
+F 2 "" H 8650 10150 60  0001 C CNN
+F 3 "" H 8650 10150 60  0001 C CNN
+	1    8650 10150
+	1    0    0    -1  
+$EndComp
+Text Notes 8150 9650 0    50   ~ 0
+UV LED
+Connection ~ 8650 9450
+Wire Wire Line
+	8650 9450 8750 9450
+Wire Notes Line
+	6900 6450 6900 8450
+Wire Wire Line
+	7050 6750 7400 6750
+Wire Wire Line
+	7400 6750 7400 6550
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5B5B8678
+P 7050 7450
+F 0 "#GND?" H 7050 7450 45  0001 L BNN
+F 1 "GND" H 7050 7331 45  0000 C CNN
+F 2 "" H 7050 7450 60  0001 C CNN
+F 3 "" H 7050 7450 60  0001 C CNN
+	1    7050 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 6750 7450 6750
+Wire Wire Line
+	7450 6750 7450 6850
+Connection ~ 7400 6750
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5B5DDCFD
+P 7550 8250
+F 0 "#GND?" H 7550 8250 45  0001 L BNN
+F 1 "GND" H 7550 8131 45  0000 C CNN
+F 2 "" H 7550 8250 60  0001 C CNN
+F 3 "" H 7550 8250 60  0001 C CNN
+	1    7550 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L FilmCapacitor:CER_FILM C?
+U 1 1 5B5DDF14
+P 10850 8000
+F 0 "C?" H 11000 7950 45  0000 C CNN
+F 1 "10n" H 10750 8100 45  0000 C CNN
+F 2 "Film-Caps:BOX_SMALL" H 10800 7950 20  0001 C CNN
+F 3 "" V 10725 7650 60  0001 C CNN
+	1    10850 8000
+	-1   0    0    1   
+$EndComp
+$Comp
+L FilmCapacitor:CER_FILM C?
+U 1 1 5B5DE3E8
+P 9750 8000
+F 0 "C?" H 9900 7950 45  0000 C CNN
+F 1 "100n" H 9650 8100 45  0000 C CNN
+F 2 "Film-Caps:BOX_SMALL" H 9700 7950 20  0001 C CNN
+F 3 "" V 9625 7650 60  0001 C CNN
+	1    9750 8000
+	-1   0    0    1   
+$EndComp
+$Comp
+L ElectrolyticCapacitor:CapElec C?
+U 1 1 5B5DE790
+P 7550 8000
+F 0 "C?" H 7653 8042 45  0000 L CNN
+F 1 "10u" H 7653 7958 45  0000 L CNN
+F 2 "Electro-Caps:050_020_1" V 7600 7940 20  0001 C CNN
+F 3 "" V 7200 8050 60  0001 C CNN
+	1    7550 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PotentiometerStandard:Value SynthPot?
+U 1 1 5B603783
+P 8250 7400
+F 0 "SynthPot?" H 8197 7313 45  0000 R CNN
+F 1 "10k" H 8197 7397 45  0000 R CNN
+F 2 "Potentiometers:16MM_ReverseSide" V 8200 7400 20  0001 C CNN
+F 3 "" H 8350 7300 60  0001 C CNN
+F 4 "Base" H 8197 7484 50  0000 R CNN "Name1"
+	1    8250 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L PotentiometerStandard:Value SynthPot?
+U 1 1 5B6039A6
+P 9300 7400
+F 0 "SynthPot?" H 9247 7313 45  0000 R CNN
+F 1 "20k" H 9247 7397 45  0000 R CNN
+F 2 "Potentiometers:16MM_ReverseSide" V 9250 7400 20  0001 C CNN
+F 3 "" H 9400 7300 60  0001 C CNN
+F 4 "Occ 2" H 9247 7484 50  0000 R CNN "Name1"
+	1    9300 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L PotentiometerStandard:Value SynthPot?
+U 1 1 5B603AAC
+P 10350 7400
+F 0 "SynthPot?" H 10297 7313 45  0000 R CNN
+F 1 "50k" H 10297 7397 45  0000 R CNN
+F 2 "Potentiometers:16MM_ReverseSide" V 10300 7400 20  0001 C CNN
+F 3 "" H 10450 7300 60  0001 C CNN
+F 4 "Occ 3" H 10297 7484 50  0000 R CNN "Name1"
+	1    10350 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L PotentiometerStandard:Value SynthPot?
+U 1 1 5B603D6E
+P 11450 7400
+F 0 "SynthPot?" H 11850 7300 45  0000 R CNN
+F 1 "100k" H 11397 7397 45  0000 R CNN
+F 2 "Potentiometers:16MM_ReverseSide" V 11400 7400 20  0001 C CNN
+F 3 "" H 11550 7300 60  0001 C CNN
+F 4 "Top" H 11397 7484 50  0000 R CNN "Name1"
+	1    11450 7400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 7050 7550 7050
+Wire Wire Line
+	7650 6850 7450 6850
+Wire Wire Line
+	8250 6950 8250 7200
+Wire Wire Line
+	8250 7600 8000 7600
+Connection ~ 7550 7600
+Wire Wire Line
+	7550 7600 7550 7050
+Wire Wire Line
+	8050 7400 8000 7400
+Wire Wire Line
+	8000 7400 8000 7600
+Connection ~ 8000 7600
+Wire Wire Line
+	8000 7600 7550 7600
+Wire Wire Line
+	8250 6950 8250 6850
+Wire Wire Line
+	8250 6850 8700 6850
+Connection ~ 8250 6950
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5B69D4C5
+P 8700 8250
+F 0 "#GND?" H 8700 8250 45  0001 L BNN
+F 1 "GND" H 8700 8131 45  0000 C CNN
+F 2 "" H 8700 8250 60  0001 C CNN
+F 3 "" H 8700 8250 60  0001 C CNN
+	1    8700 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ElectrolyticCapacitor:CapElec C?
+U 1 1 5B69D5B2
+P 8700 8000
+F 0 "C?" H 8803 8042 45  0000 L CNN
+F 1 "2.2u" H 8803 7958 45  0000 L CNN
+F 2 "Electro-Caps:050_020_1" V 8750 7940 20  0001 C CNN
+F 3 "" V 8350 8050 60  0001 C CNN
+	1    8700 8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 7600 7550 7850
+Wire Wire Line
+	8700 7050 8700 7600
+Wire Wire Line
+	9300 6950 9300 7200
+Wire Wire Line
+	9300 7600 9050 7600
+Connection ~ 8700 7600
+Wire Wire Line
+	8700 7600 8700 7850
+Wire Wire Line
+	9100 7400 9050 7400
+Wire Wire Line
+	9050 7400 9050 7600
+Connection ~ 9050 7600
+Wire Wire Line
+	9050 7600 8700 7600
+Wire Wire Line
+	9300 6950 9300 6850
+Connection ~ 9300 6950
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5B74060B
+P 9750 8250
+F 0 "#GND?" H 9750 8250 45  0001 L BNN
+F 1 "GND" H 9750 8131 45  0000 C CNN
+F 2 "" H 9750 8250 60  0001 C CNN
+F 3 "" H 9750 8250 60  0001 C CNN
+	1    9750 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 7850 9750 7600
+Wire Wire Line
+	9300 6850 9750 6850
+Wire Wire Line
+	10350 6950 10350 7200
+Wire Wire Line
+	10350 7600 10100 7600
+Connection ~ 9750 7600
+Wire Wire Line
+	9750 7600 9750 7050
+Wire Wire Line
+	10150 7400 10100 7400
+Wire Wire Line
+	10100 7400 10100 7600
+Connection ~ 10100 7600
+Wire Wire Line
+	10100 7600 9750 7600
+Wire Wire Line
+	10350 6950 10350 6850
+Connection ~ 10350 6950
+Wire Wire Line
+	10350 6850 10850 6850
+Wire Wire Line
+	11450 7600 11200 7600
+Wire Wire Line
+	11200 7600 11200 7400
+Wire Wire Line
+	11200 7400 11250 7400
+Wire Wire Line
+	11450 6950 11450 7200
+Wire Wire Line
+	10850 7050 10850 7600
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5B818061
+P 10850 8250
+F 0 "#GND?" H 10850 8250 45  0001 L BNN
+F 1 "GND" H 10850 8131 45  0000 C CNN
+F 2 "" H 10850 8250 60  0001 C CNN
+F 3 "" H 10850 8250 60  0001 C CNN
+	1    10850 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 7600 10850 7600
+Connection ~ 11200 7600
+Connection ~ 10850 7600
+Wire Wire Line
+	10850 7600 10850 7850
+Text Notes 7350 6350 0    98   ~ 0
+Oscillator - Synth
+$Comp
+L PotentiometerStandard:Value SynthPot?
+U 1 1 5B82FD3D
+P 12850 7150
+F 0 "SynthPot?" H 12797 7237 45  0000 R CNN
+F 1 "100k" H 12797 7153 45  0000 R CNN
+F 2 "Potentiometers:16MM_ReverseSide" V 12800 7150 20  0001 C CNN
+F 3 "" H 12950 7050 60  0001 C CNN
+F 4 "Volume" H 12797 7066 50  0000 R CNN "Name1"
+	1    12850 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 6950 11700 6950
+Connection ~ 11450 6950
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5B846C64
+P 11700 8250
+F 0 "#GND?" H 11700 8250 45  0001 L BNN
+F 1 "GND" H 11700 8131 45  0000 C CNN
+F 2 "" H 11700 8250 60  0001 C CNN
+F 3 "" H 11700 8250 60  0001 C CNN
+	1    11700 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ElectrolyticCapacitor:CapElec C?
+U 1 1 5B8B9A33
+P 11700 8000
+F 0 "C?" H 11500 8050 45  0000 L CNN
+F 1 "1u" H 11500 7950 45  0000 L CNN
+F 2 "Electro-Caps:050_020_1" V 11750 7940 20  0001 C CNN
+F 3 "" V 11350 8050 60  0001 C CNN
+	1    11700 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5B8E8EAD
+P 12000 7250
+F 0 "R?" V 11958 7303 45  0000 L CNN
+F 1 "600r" V 12042 7303 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 12050 7300 20  0001 C CNN
+F 3 "" H 12000 7250 60  0001 C CNN
+	1    12000 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L diodes:LEDA SynthLED?
+U 1 1 5B8E948A
+P 12000 7600
+F 0 "SynthLED?" V 12050 7523 45  0000 R CNN
+F 1 "LEDA" H 12000 7600 45  0001 L BNN
+F 2 "Diodes:3MM_B" H 12030 7750 20  0001 C CNN
+F 3 "" H 12000 7600 50  0001 C CNN
+	1    12000 7600
+	0    -1   -1   0   
+$EndComp
+Text Notes 12050 7850 0    50   ~ 0
+Yellow/\nGreen\nLED
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5B8EA4B7
+P 12000 8250
+F 0 "#GND?" H 12000 8250 45  0001 L BNN
+F 1 "GND" H 12000 8131 45  0000 C CNN
+F 2 "" H 12000 8250 60  0001 C CNN
+F 3 "" H 12000 8250 60  0001 C CNN
+	1    12000 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 7100 12000 6950
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5B918A02
+P 12150 6950
+F 0 "R?" H 12150 6771 45  0000 C CNN
+F 1 "1k" H 12150 6855 45  0000 C CNN
+F 2 "Resistors:R0207_2V" H 12200 7000 20  0001 C CNN
+F 3 "" H 12150 6950 60  0001 C CNN
+	1    12150 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11700 7850 11700 6950
+Connection ~ 11700 6950
+Wire Wire Line
+	11700 6950 12000 6950
+Wire Wire Line
+	12000 7700 12000 8150
+Connection ~ 12000 6950
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5B95EF8C
+P 12400 8000
+F 0 "R?" V 12358 8053 45  0000 L CNN
+F 1 "100r" V 12442 8053 45  0000 L CNN
+F 2 "Resistors:R0207_3" H 12450 8050 20  0001 C CNN
+F 3 "" H 12400 8000 60  0001 C CNN
+	1    12400 8000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12400 6950 12300 6950
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5B98DA0D
+P 12400 8250
+F 0 "#GND?" H 12400 8250 45  0001 L BNN
+F 1 "GND" H 12400 8131 45  0000 C CNN
+F 2 "" H 12400 8250 60  0001 C CNN
+F 3 "" H 12400 8250 60  0001 C CNN
+	1    12400 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12400 6950 12400 7850
+Wire Wire Line
+	12850 6950 12400 6950
+Connection ~ 12400 6950
+$Comp
+L supply_pins:GND #GND?
+U 1 1 5B9EC942
+P 12850 8250
+F 0 "#GND?" H 12850 8250 45  0001 L BNN
+F 1 "GND" H 12850 8131 45  0000 C CNN
+F 2 "" H 12850 8250 60  0001 C CNN
+F 3 "" H 12850 8250 60  0001 C CNN
+	1    12850 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12850 7350 12850 8150
+Wire Notes Line
+	13650 6450 13650 8450
+Wire Notes Line
+	6900 6450 13650 6450
+Wire Notes Line
+	6900 8450 13650 8450
+NoConn ~ 5250 9850
+NoConn ~ 9950 2600
+NoConn ~ 8250 5450
+$Comp
+L Cygni-PulsarV2.1-rescue:PADRND-BoardConnections CVtest?
+U 1 1 5AD4DF76
+P 4150 1900
+F 0 "CVtest?" H 4050 2150 45  0000 L CNN
+F 1 "DC" H 4150 1900 45  0001 L BNN
+F 2 "Supply-Pins:SQUARE" H 4180 2050 20  0001 C CNN
+F 3 "" H 4150 1900 60  0001 C CNN
+	1    4150 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 1900 4150 1700
+Connection ~ 4150 1700
+Wire Wire Line
+	4150 1700 3300 1700
+Text Notes 9200 6400 0    50   ~ 0
+Decoupling - Add 100n & 100p over PWR Rail
+Text Notes 1700 8850 0    50   ~ 0
+Add 2200u & 100n\nCap to power Input
+Text Notes 9825 4450 0    50   ~ 0
+Square Wave\n\n-9v to +9v peak duty cyle? \nmaybe 20% maybe less. \n\n\n\n
+Text Notes 6325 4350 0    50   ~ 0
+Add switchable cap to this leg for\nweird effect\n
+Text Notes 12800 1125 0    79   ~ 0
+5v to +-9v LFO Translator
+$Comp
+L supply_pins:PADSQR M?
+U 1 1 5C28F950
+P 11775 2900
+F 0 "M?" H 11775 3150 45  0001 C CNN
+F 1 "LFOin" V 11900 3050 45  0000 C CNN
+F 2 "SQUARE" H 11875 2900 20  0001 C CNN
+F 3 "" H 11775 2900 60  0001 C CNN
+	1    11775 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ElectrolyticCapacitor:22u EC?
+U 1 1 5C2C0AFA
+P 12125 2900
+F 0 "EC?" V 12360 2900 45  0000 C CNN
+F 1 "22u" V 12274 2900 45  0000 C CNN
+F 2 "Electro-Caps:050_020_1B" H 12125 2850 20  0001 C CNN
+F 3 "" V 11775 2950 60  0001 C CNN
+	1    12125 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11775 2900 11975 2900
+$Comp
+L Resistor:R8050SM R?
+U 1 1 5C320F22
+P 12550 2450
+F 0 "R?" V 12593 2394 45  0000 R CNN
+F 1 "115k" V 12507 2394 45  0000 R CNN
+F 2 "SMD:RESISTOR_C1206" H 12600 2500 20  0001 C CNN
+F 3 "" H 12550 2450 60  0001 C CNN
+	1    12550 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Resistor:R8050SM R?
+U 1 1 5C339BEA
+P 12550 3350
+F 0 "R?" V 12593 3294 45  0000 R CNN
+F 1 "10k" V 12507 3294 45  0000 R CNN
+F 2 "SMD:RESISTOR_C1206" H 12600 3400 20  0001 C CNN
+F 3 "" H 12550 3350 60  0001 C CNN
+	1    12550 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SMD:TRANSISTORSOT23 Q?
+U 1 1 5C33A04A
+P 12950 2900
+F 0 "Q?" H 13093 2943 45  0000 L CNN
+F 1 "TRANSISTORSOT23" H 13093 2857 45  0000 L CNN
+F 2 "TRANSISTOR_SOT23-BEC" H 12980 3050 20  0001 C CNN
+F 3 "" H 12950 2900 50  0001 C CNN
+	1    12950 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor:R8050SM R?
+U 1 1 5C33A2DF
+P 13050 2450
+F 0 "R?" V 13093 2394 45  0000 R CNN
+F 1 "10k" V 13007 2394 45  0000 R CNN
+F 2 "SMD:RESISTOR_C1206" H 13100 2500 20  0001 C CNN
+F 3 "" H 13050 2450 60  0001 C CNN
+	1    13050 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Resistor:R8050SM R?
+U 1 1 5C35307D
+P 13050 3350
+F 0 "R?" V 13093 3294 45  0000 R CNN
+F 1 "1k" V 13007 3294 45  0000 R CNN
+F 2 "SMD:RESISTOR_C1206" H 13100 3400 20  0001 C CNN
+F 3 "" H 13050 3350 60  0001 C CNN
+	1    13050 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Resistor:R8050SM R?
+U 1 1 5C353616
+P 13500 3350
+F 0 "R?" V 13543 3294 45  0000 R CNN
+F 1 "3k3" V 13457 3294 45  0000 R CNN
+F 2 "SMD:RESISTOR_C1206" H 13550 3400 20  0001 C CNN
+F 3 "" H 13500 3350 60  0001 C CNN
+	1    13500 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ElectrolyticCapacitor:47u EC?
+U 1 1 5C353E54
+P 13500 3750
+F 0 "EC?" H 13606 3793 45  0000 L CNN
+F 1 "47u" H 13606 3707 45  0000 L CNN
+F 2 "Electro-Caps:063_025" H 13500 3700 20  0001 C CNN
+F 3 "" V 13150 3800 60  0001 C CNN
+	1    13500 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13050 3100 13050 3150
+Wire Wire Line
+	13050 3150 13500 3150
+Wire Wire Line
+	13500 3150 13500 3200
+Connection ~ 13050 3150
+Wire Wire Line
+	13050 3150 13050 3200
+Wire Wire Line
+	13500 3500 13500 3600
+Wire Wire Line
+	13050 2600 13050 2650
+$Comp
+L supply_pins:PADSQR M?
+U 1 1 5C3CF4E2
+P 13950 2650
+F 0 "M?" H 13950 2900 45  0001 C CNN
+F 1 "LFOout" V 14075 2800 45  0000 C CNN
+F 2 "SQUARE" H 14050 2650 20  0001 C CNN
+F 3 "" H 13950 2650 60  0001 C CNN
+	1    13950 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13950 2650 13050 2650
+Connection ~ 13050 2650
+Wire Wire Line
+	13050 2650 13050 2700
+Wire Wire Line
+	12275 2900 12550 2900
+$Comp
+L supply_pins:+9V Vin?
+U 1 1 5C497A54
+P 13050 2050
+F 0 "Vin?" H 13131 2131 45  0000 L CNN
+F 1 "+9V" H 13131 2045 45  0000 L CNN
+F 2 "Supply-Pins:Vin" H 13100 2250 20  0001 C CNN
+F 3 "" H 13150 2000 60  0001 C CNN
+	1    13050 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13050 2100 13050 2150
+$Comp
+L supply_pins:-9V Vin?
+U 1 1 5C54BE28
+P 13500 4000
+F 0 "Vin?" H 13399 3976 45  0000 R CNN
+F 1 "-9V" H 13399 4062 45  0000 R CNN
+F 2 "Supply-Pins:Vin" H 13530 4150 20  0001 C CNN
+F 3 "" H 13600 3950 60  0001 C CNN
+	1    13500 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L supply_pins:-9V Vin?
+U 1 1 5C54C085
+P 13050 4000
+F 0 "Vin?" H 12949 3976 45  0000 R CNN
+F 1 "-9V" H 12949 4062 45  0000 R CNN
+F 2 "Supply-Pins:Vin" H 13080 4150 20  0001 C CNN
+F 3 "" H 13150 3950 60  0001 C CNN
+	1    13050 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13050 3500 13050 3950
+Wire Wire Line
+	13500 3900 13500 3950
+$Comp
+L supply_pins:-9V Vin?
+U 1 1 5C581184
+P 12550 4000
+F 0 "Vin?" H 12449 3976 45  0000 R CNN
+F 1 "-9V" H 12449 4062 45  0000 R CNN
+F 2 "Supply-Pins:Vin" H 12580 4150 20  0001 C CNN
+F 3 "" H 12650 3950 60  0001 C CNN
+	1    12550 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12550 3950 12550 3500
+Wire Wire Line
+	12550 3200 12550 2900
+Connection ~ 12550 2900
+Wire Wire Line
+	12550 2900 12850 2900
+Wire Wire Line
+	12550 2900 12550 2600
+Wire Wire Line
+	12550 2300 12550 2150
+Wire Wire Line
+	12550 2150 13050 2150
+Connection ~ 13050 2150
+Wire Wire Line
+	13050 2150 13050 2300
+$Comp
+L supply_pins:PADSQR M?
+U 1 1 5C602C81
+P 10450 2650
+F 0 "M?" H 10450 2900 45  0001 C CNN
+F 1 "LFOrtn" V 10575 2800 45  0000 C CNN
+F 2 "SQUARE" H 10550 2650 20  0001 C CNN
+F 3 "" H 10450 2650 60  0001 C CNN
+	1    10450 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10450 2650 10100 2650
+Connection ~ 10100 2650
+Wire Wire Line
+	10100 2650 10100 3000
+$Comp
+L Cygni-PulsarV2.1-rescue:R_.1-Resistor R?
+U 1 1 5C4E9461
+P 2100 5000
+F 0 "R?" H 2100 4900 45  0000 L CNN
+F 1 "12k" H 2050 5100 45  0000 L CNN
+F 2 "Resistors:R0207_2V" H 2150 5050 20  0001 C CNN
+F 3 "" H 2100 5000 60  0001 C CNN
+	1    2100 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L switches:SPDT SW?
+U 1 1 5C4E97DC
+P 1800 4900
+F 0 "SW?" H 1750 5214 45  0000 C CNN
+F 1 "SPDT" H 1800 5100 45  0001 L BNN
+F 2 "M9040P" H 1900 5100 20  0001 C CNN
+F 3 "" V 1750 5000 50  0001 C CNN
+F 4 "Name?" H 1750 5125 50  0000 C CNN "Name"
+	1    1800 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2775 1600 2775
+Wire Wire Line
+	1600 2000 1600 2750
+Connection ~ 1600 2750
+Wire Wire Line
+	1600 2750 1600 2775
+Connection ~ 2250 5000
+Wire Wire Line
+	2250 5000 2250 5250
+Wire Wire Line
+	1550 4900 1475 4900
+Wire Wire Line
+	1475 4900 1475 4475
+Wire Wire Line
+	1475 4475 1350 4475
+Wire Wire Line
+	2250 4450 2250 5000
+Wire Wire Line
+	1600 4450 1600 4475
+Wire Wire Line
+	1600 4475 1475 4475
+Connection ~ 1475 4475
+Wire Wire Line
+	1600 4450 1900 4450
+Text Notes 700  3975 0    50   ~ 0
+Short Pins 2 &3 or 1&2\nRythmically\n
+Text Notes 550  4175 0    50   ~ 0
+CV input for filter?
+Text Notes 6400 900  0    50   ~ 0
+Noise input for sample\n
+$EndSCHEMATC
